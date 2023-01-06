@@ -67,6 +67,10 @@ section{
     align-items: center;
     gap: 87px;    
 }
+.image-and-description-container img{
+    box-shadow: -10px 10px 10px lavender ;
+    border-radius: 40px;
+}
 .section-title{
     font-weight: 700;
     font-size: 45px;
@@ -89,7 +93,8 @@ section{
    gap: 87px;
 }
 .achievement-container img{
-    border-radius: 30px;
+    box-shadow: 10px 10px 10px lavender;
+    border-radius: 40px;
 }
 
 /* plan section styles */
