@@ -67,7 +67,7 @@ section{
     align-items: center;
     gap: 87px;    
 }
-.image-and-description-container img{
+#image-shadow{
     box-shadow: -10px 10px 10px lavender ;
     border-radius: 40px;
 }
@@ -92,7 +92,7 @@ section{
    align-items: center;
    gap: 87px;
 }
-.achievement-container img{
+#achievement-img{
     box-shadow: 10px 10px 10px lavender;
     border-radius: 40px;
 }
