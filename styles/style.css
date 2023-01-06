@@ -105,3 +105,63 @@ section{
     font-weight: 500;
     color: #737272;
 }
+/* gradient background styles */
+.gradient-background{
+    height: 300px;
+    background-image: linear-gradient(to right,#F15B22, rgba(241, 91, 34, 0)), url(../assets/images/watch.png);
+    background-size: cover;
+    border-radius: 8px;
+    margin-bottom: 130px;
+}
+.gradient-background h2{
+    color: #FFFFFF;
+}
+.call-now-section{
+    width: 50%;
+    padding: 59px 0 59px 64px;
+}
+
+/* footer section styles */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #151414;
+}
+.info-container{
+    width: 40%;
+    padding: 130px ;
+}
+.info-container img{
+    margin-right: 17px;
+}
+.info-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF; 
+    margin-bottom: 16px;   
+}
+.info-description{
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.subscribe{
+    padding: 130px 230px 130px 0;
+}
+.subscribe-title{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+.subscribe input[type=email]{
+    background-color: #151414;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    width: 100%;
+    padding: 21px;
+    margin-bottom: 16px;
+}
+.subscribe ::placeholder{
+    color: #F3F3F3;
+}
