@@ -2,3 +2,42 @@
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
+
+/* button styles */
+.btn-primary{
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #F15B22;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px 25px;
+}
+
+/* banner styles */
+.header-part{
+    height: 70vh;
+    background-image: url(../assets/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.banner{
+    text-align: right;
+    padding: 167px 230px 167px 845px;
+    margin: 0 auto;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.banner-description{
+    color: #444343;
+    margin-bottom: 32px;
+}
