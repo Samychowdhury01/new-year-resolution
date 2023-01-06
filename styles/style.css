@@ -78,8 +78,15 @@ section{
 }
 .bullet-point-container p{
     margin: 8px;
+    color: #444343;
 }
 
+/* pervious-year-achievement section style */
+.achievement-container{
+   display: flex;
+   align-items: center;
+   gap: 87px;
+}
 /* plan section styles */
 .my-plan-section h2{
     text-align: center;
