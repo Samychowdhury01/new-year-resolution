@@ -3,7 +3,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-/* buttons styles */
+/* button styles */
 .btn-primary{
     height: 64px;
     font-weight: 600;
@@ -24,6 +24,7 @@
     border-radius: 5px;
     padding: 20px 25px;
 }
+
 /* banner styles */
 .header-part{
     height: 80vh;
@@ -87,6 +88,10 @@ section{
    align-items: center;
    gap: 87px;
 }
+.achievement-container img{
+    border-radius: 10px;
+}
+
 /* plan section styles */
 .my-plan-section h2{
     text-align: center;
@@ -112,6 +117,7 @@ section{
     font-weight: 500;
     color: #737272;
 }
+
 /* gradient background styles */
 .gradient-background{
     height: 300px;
