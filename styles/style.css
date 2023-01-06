@@ -3,7 +3,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-/* button styles */
+/* buttons styles */
 .btn-primary{
     height: 64px;
     font-weight: 600;
@@ -14,10 +14,19 @@
     border-radius: 5px;
     padding: 20px 25px;
 }
-
+.btn-secondary{
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    color: #F15B22;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px 25px;
+}
 /* banner styles */
 .header-part{
-    height: 70vh;
+    height: 80vh;
     background-image: url(../assets/banner/banner2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,7 +34,7 @@
     justify-content: right;
     align-items: center;
 }
-.banner{
+.banner-container{
     text-align: right;
     padding: 167px 230px 167px 845px;
     margin: 0 auto;
@@ -40,4 +49,59 @@
 .banner-description{
     color: #444343;
     margin-bottom: 32px;
+}
+
+/* main part style starting from here */
+main{
+    max-width: 1141px;
+    margin: 0 auto;
+}
+section{
+    margin-top: 130px;
+}
+
+/* image and description part styles */
+.image-and-description-container{
+    display: flex;
+    align-items: center;
+    gap: 87px;    
+}
+.section-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.section-description{
+    color: #444343;
+    margin-bottom: 16px;
+}
+.bullet-point-container p{
+    margin: 8px;
+}
+
+/* plan section styles */
+.my-plan-section h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.plans-container{
+    display: flex;
+    align-items: center;
+    gap: 86px;
+}
+.plan{
+    text-align: center;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.plan-description{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
 }
