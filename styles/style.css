@@ -99,32 +99,6 @@ section{
     color: #444343;
 }
 
-/* plan section styles */
-.my-plan-section h2{
-    text-align: center;
-    margin-bottom: 50px;
-}
-.plans-container{
-    display: flex;
-    align-items: center;
-    gap: 86px;
-}
-.plan{
-    text-align: center;
-}
-.plan-title{
-    font-weight: 700;
-    font-size: 30px;
-    color: #151414;
-    margin-top: 24px;
-    margin-bottom: 16px;
-}
-.plan-description{
-    font-size: 25px;
-    font-weight: 500;
-    color: #737272;
-}
-
 /* skills section */
 .skills-section h2{
     text-align: center;
@@ -132,8 +106,6 @@ section{
 }
 .skill-container{
     display: flex;
-    /* background-color: #F15B22; */
-    /* border-radius: 10px; */
     margin-bottom: 130px;
 }
 
@@ -161,6 +133,33 @@ section{
     color: #737272;
     font-weight: 200;
 }
+
+/* plan section styles */
+.my-plan-section h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.plans-container{
+    display: flex;
+    align-items: center;
+    gap: 86px;
+}
+.plan{
+    text-align: center;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.plan-description{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+
 /* gradient background styles */
 .gradient-background{
     height: 300px;
