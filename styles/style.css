@@ -72,10 +72,7 @@ section{
     font-size: 18px;
     margin-right: 10px;
 }
-#image-shadow{
-    box-shadow: -10px 10px 10px lavender ;
-    border-radius: 40px;
-}
+
 .section-title{
     font-weight: 700;
     font-size: 45px;
@@ -98,7 +95,6 @@ section{
    gap: 87px;
 }
 #achievement-img{
-    box-shadow: 10px 10px 10px lavender;
     border-radius: 40px;
 }
 
@@ -135,8 +131,8 @@ section{
 }
 .skill-container{
     display: flex;
-    background-color: #F15B22;
-    border-radius: 10px;
+    /* background-color: #F15B22; */
+    /* border-radius: 10px; */
     margin-bottom: 130px;
 }
 
@@ -145,6 +141,7 @@ section{
     font-weight: 600;
     font-size: 24px;
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 20px;
     padding: 55px 23px 55px;
     margin: 40px 30px;
